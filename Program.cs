@@ -14,3 +14,9 @@ else if (num2 > num1)
     Console.Write("max = ");
     Console.WriteLine(num2);
 }
+
+else
+{
+    Console.Write("max = ");
+    Console.WriteLine(num1);
+}
