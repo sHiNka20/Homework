@@ -2,21 +2,17 @@
 int num1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число : ");
 int num2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите третье число : ");
+int num3 = Convert.ToInt32(Console.ReadLine());
 
-if (num1 > num2)
-{
-    Console.Write("max = ");
-    Console.WriteLine(num1);
-}
+int max = num1;
 
-else if (num2 > num1)
+if (num2 > max)
 {
-    Console.Write("max = ");
-    Console.WriteLine(num2);
+    max = num2;
 }
-
-else
+else if (num3 > max)
 {
-    Console.Write("max = ");
-    Console.WriteLine(num1);
+    max = num3;
 }
+Console.WriteLine(max);
